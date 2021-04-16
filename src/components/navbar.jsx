@@ -10,7 +10,9 @@ class Navbar extends Component {
     return (
       <div className="navbar-home">
         <span className="brand">{this.props.name}</span>
-        <button class="btn-login">Login</button>
+        <a className="btn-login" href="#">
+          Login
+        </a>
       </div>
     );
   }

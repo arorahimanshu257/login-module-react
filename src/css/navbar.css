@@ -1,8 +1,30 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
 .navbar-home {
+  background-color: green;
+  margin: 0;
+  height: 50px;
+}
+
+.brand {
   float: left;
-  color: #111010;
+  color: whitesmoke;
   text-align: center;
-  padding: 14px 16px;
+  font-weight: 400;
+  padding: 10px 30px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 30px;
+}
+
+.btn-login {
+  float: right;
+  font-weight: 400;
+  border: none;
+  text-decoration: none;
+  margin: 10px 100px;
+  color: whitesmoke;
+  font-size: 30px;
 }
