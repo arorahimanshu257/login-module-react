@@ -13,18 +13,18 @@ body {
   float: left;
   color: whitesmoke;
   text-align: center;
-  font-weight: 400;
-  padding: 10px 30px;
+  font-weight: 100;
+  margin: 8px 30px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 25px;
 }
 
-.btn-login {
+.btn-signup {
   float: right;
-  font-weight: 400;
+  font-weight: 100;
   border: none;
   text-decoration: none;
-  margin: 10px 100px;
+  margin: 8px 70px;
   color: whitesmoke;
-  font-size: 30px;
+  font-size: 25px;
 }
