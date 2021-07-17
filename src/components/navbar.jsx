@@ -8,11 +8,30 @@ class Navbar extends Component {
   }
   render() {
     return (
-      <div className="navbar-home">
-        <span className="brand">{this.props.name}</span>
-        <a className="btn-signup" href="index.html">
-          Signup
-        </a>
+      <div>
+        <header>
+          <nav>
+            <ul className="topnav">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Men</a>
+              </li>
+              <li>
+                <a href="#">Women</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li className="right">
+                <a href="#" className="active">
+                  Cart
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
       </div>
     );
   }
